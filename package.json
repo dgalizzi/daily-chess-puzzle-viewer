@@ -1,0 +1,19 @@
+{
+  "name": "lichess-daily-puzzle-viewer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "chess-puzzle-viewer": "^0.0.8",
+    "chessops": "^0.14.2"
+  }
+}

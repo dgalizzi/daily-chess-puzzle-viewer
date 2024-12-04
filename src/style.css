@@ -1,0 +1,9 @@
+@import "../node_modules/chess-puzzle-viewer/dist/chess-puzzle-viewer.css";
+
+.viewer {
+  margin: 1em;
+}
+
+.viewer > div {
+  max-width: 600px;
+}
